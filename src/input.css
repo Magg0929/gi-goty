@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'ShinShin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ShinShin'), url('../public/font/zhcn.woff') format('woff');
+  }
+
+  body{
+    font-family: ShinShin;
+  }
